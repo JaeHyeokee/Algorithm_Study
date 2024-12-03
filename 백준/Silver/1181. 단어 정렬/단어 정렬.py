@@ -1,0 +1,5 @@
+arr = set()
+for i in range(int(input())): arr.add(input())
+arr = list(arr)
+arr.sort(key = lambda x: (len(x), x))
+for i in range(len(arr)): print(arr[i])
