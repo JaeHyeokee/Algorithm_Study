@@ -1,0 +1,6 @@
+get = input().split()
+A = int(get[0])
+B = int(get[1])
+if A > B: print('>')
+elif A < B: print('<')
+else: print('==')
