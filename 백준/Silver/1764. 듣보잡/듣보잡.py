@@ -1,0 +1,8 @@
+N,M = map(int, input().split())
+setN = set()
+setM = set()
+for i in range(N): setN.add(input())
+for i in range(M): setM.add(input())
+result = sorted(list(setN & setM))
+print(len(result))
+for i in result: print(i)
